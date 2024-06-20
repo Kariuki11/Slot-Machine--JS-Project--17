@@ -36,7 +36,7 @@ const getNumberOfLines = () => {
 
 const getBet = (balance) => {
     while(true) {
-        const bet = prompt("Enter the total bet: ");
+        const bet = prompt("Enter the bet per line: ");
             const numberBet = parseFloat(bet);
     
             if(isNaN(numberBet) || numberBet <= 0 || numberBet > balance) {
@@ -49,4 +49,4 @@ const getBet = (balance) => {
 
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
-const
+const bet = getBet(balance);
