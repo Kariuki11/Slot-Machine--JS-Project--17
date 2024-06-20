@@ -1,0 +1,8 @@
+// 1. Deposit some money
+// 2. Determine the number of Lines to bet
+// 3. Collect a bet amount
+// 4. Spin the slot Machine
+// 5. Check if the player has won
+// 6. If won, calculate the winnings
+// 8. Play again
+
