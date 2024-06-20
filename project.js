@@ -49,3 +49,4 @@ const getBet = (balance) => {
 
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
+const
