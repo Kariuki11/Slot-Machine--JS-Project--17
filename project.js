@@ -40,9 +40,9 @@ const getBet = (balance) => {
             const numberBet = parseFloat(bet);
     
             if(isNaN(numberBet) || numberBet <= 0 || numberBet > balance) {
-                console.log("Invalid number of lines. Try again!.");
+                console.log("Invalid bet. Try again!.");
             } else {
-                return numberOfLines;
+                return numberBet;
             }
         }
 }
