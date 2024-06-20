@@ -82,6 +82,8 @@ const Spin = () => {
             reelSymbols.splice(randomIndex, 1);
         }
 }
+
+return reels;
 Spin();
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
