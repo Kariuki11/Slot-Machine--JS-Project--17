@@ -71,10 +71,10 @@ const Spin = () => {
             symbols.push(symbol);
         }
     }
+
+    const reels = [[], [], []];
 }
-
-
-
+Spin();
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
