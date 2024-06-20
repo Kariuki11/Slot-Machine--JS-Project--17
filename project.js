@@ -8,6 +8,12 @@
 
 const prompt = require("prompt-sync")();
 
+const ROWS = 3;
+const COLS = 3;
+
+
+
+
 const deposit = () => {
     while(true) {
     const depositAmount = prompt("Enter a deposit amount: ");
