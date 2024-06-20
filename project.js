@@ -74,8 +74,9 @@ const Spin = () => {
 
     const reels = [[], [], []];
     for (let i = 0; i < COLS; i++) {
+        const reelSymbols = [];
         for (let j = 0; j < ROWS; j++){
-            
+
         }
 }
 Spin();
