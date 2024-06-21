@@ -100,9 +100,11 @@ const transpose = (reels) => {
     return rows
 }
 
+
+
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
-const reels = spin();
+const reels = Spin();
 const rows = transpose(reels);
 console.log(rows);
