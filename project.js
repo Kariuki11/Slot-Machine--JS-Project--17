@@ -87,6 +87,8 @@ const Spin = () => {
 return reels;
 };
 
+
+
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
