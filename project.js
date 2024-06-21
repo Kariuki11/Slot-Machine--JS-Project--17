@@ -91,7 +91,7 @@ const transpose = (reels) => {
     const rows = [];
 
     for (let i = 0; i < ROWS; i++) {
-        
+        rows.push ([]);
     }
 }
 
