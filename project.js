@@ -97,7 +97,7 @@ const transpose = (reels) => {
         }
     }
 
-    return
+    return rows
 }
 
 let balance = deposit();
