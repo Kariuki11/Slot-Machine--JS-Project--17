@@ -104,4 +104,4 @@ let balance = deposit();
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
 const reels = spin();
-const rows 
+const rows = transpose
