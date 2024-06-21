@@ -90,7 +90,7 @@ return reels;
 const transpose = (reels) => {
     const rows = [];
 
-    for (let i = 0; i < ROWS;)
+    for (let i = 0; i < ROWS; i++)
 }
 
 let balance = deposit();
