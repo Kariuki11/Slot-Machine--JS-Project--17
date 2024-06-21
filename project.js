@@ -96,6 +96,8 @@ const transpose = (reels) => {
             rows[i].push(reels[j][i])
         }
     }
+
+    return
 }
 
 let balance = deposit();
