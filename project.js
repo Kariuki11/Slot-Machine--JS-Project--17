@@ -87,7 +87,9 @@ const Spin = () => {
 return reels;
 };
 
-const
+const transpose = (reels) => {
+    const rows = [];
+}
 
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
