@@ -92,4 +92,4 @@ const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
 const reels = spin();
 
-[[A], [], []]
+[[A B C], [D D D], [A A A]]
