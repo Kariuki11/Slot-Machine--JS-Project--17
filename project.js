@@ -94,3 +94,4 @@ const reels = spin();
 
 [[A B C], [D D D], [A A A]]
 A D A
+B D A
