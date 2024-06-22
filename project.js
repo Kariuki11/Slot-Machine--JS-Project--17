@@ -109,6 +109,7 @@ const printRows = (rows) => {
                 rowString += " | ";
         }
     }
+    console.log(rowString)
 }
 
 let balance = deposit();
