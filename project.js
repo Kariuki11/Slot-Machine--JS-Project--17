@@ -110,6 +110,7 @@ const printRows = (rows) => {
         }
     }
     console.log(rowString)
+    }
 }
 
 let balance = deposit();
@@ -117,4 +118,4 @@ const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
 const reels = Spin();
 const rows = transpose(reels);
-console.log(rows);
+printRows(rows);
