@@ -113,6 +113,14 @@ const printRows = (rows) => {
     }
 }
 
+const getWinnings = (rows, bet, lines) => {
+    let winnings = 0;
+
+    for (let row = 0; row < lines; row++) {
+        
+    }
+}
+
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
