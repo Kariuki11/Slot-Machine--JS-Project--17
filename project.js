@@ -141,7 +141,7 @@ const game = () => {
     while (true) {
         const numberOfLines = getNumberOfLines();
         const bet = getBet(balance, numberOfLines);
-            balance -= bet * numberOfLines
+        balance -= bet * numberOfLines
         const reels = Spin();
         const rows = transpose(reels);
         printRows(rows);
