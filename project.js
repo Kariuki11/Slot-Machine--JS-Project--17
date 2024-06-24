@@ -128,9 +128,11 @@ const getWinnings = (rows, bet, lines) => {
         }
 
         if(allSame) {
-            winnings += bet * SYMBOL_VALUES[symbols[0]]
+            winnings += bet * SYMBOL_VALUES[symbols[0]];
         }
     }
+
+    return winnings;
 }
 
 let balance = deposit();
