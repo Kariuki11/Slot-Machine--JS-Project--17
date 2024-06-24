@@ -122,6 +122,9 @@ const getWinnings = (rows, bet, lines) => {
 
         for (const symbol of symbols) {
             if (symbol != symbols[0]) {
+                    allSame = false;
+                    break;
+            }
         }
     }
 }
