@@ -146,6 +146,7 @@ const game = () => {
         const rows = transpose(reels);
         printRows(rows);
         const winnings = getWinnings(rows, bet, numberOfLines);
+        balance += winnings;
         console.log("You won, $" + winnings.toString());
     }
 }
