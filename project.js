@@ -141,3 +141,5 @@ const bet = getBet(balance, numberOfLines);
 const reels = Spin();
 const rows = transpose(reels);
 printRows(rows);
+const winnings = getWinnings(rows, bet, lines);
+console.log("You won, $" + winnings.toString());
