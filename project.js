@@ -139,7 +139,7 @@ const game = () => {
     let balance = deposit();
 
     while (true) {
-        print("You have a balance of $" + balance)
+        console.log("You have a balance of $" + balance)
         const numberOfLines = getNumberOfLines();
         const bet = getBet(balance, numberOfLines);
         balance -= bet * numberOfLines
@@ -149,6 +149,11 @@ const game = () => {
         const winnings = getWinnings(rows, bet, numberOfLines);
         balance += winnings;
         console.log("You won, $" + winnings.toString());
+
+        if(balance <=  0) {
+            console.log("You have run out of money. Game over.");
+            break;
+        }else
     }
 }
 
