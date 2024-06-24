@@ -135,6 +135,8 @@ const getWinnings = (rows, bet, lines) => {
     return winnings;
 }
 
+def Gamepad
+
 let balance = deposit();
 const numberOfLines = getNumberOfLines();
 const bet = getBet(balance, numberOfLines);
