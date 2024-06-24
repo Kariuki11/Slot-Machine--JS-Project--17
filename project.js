@@ -153,7 +153,12 @@ const game = () => {
         if(balance <=  0) {
             console.log("You have run out of money. Game over.");
             break;
-        }else
+        }
+
+        const playAgain = prompt("Do you want to play again? (yes/no)" );
+
+        if (playAgain != "yes") break;
+
     }
 }
 
