@@ -128,7 +128,7 @@ const getWinnings = (rows, bet, lines) => {
         }
 
         if(allSame) {
-            
+            winnings += bet * SYMBOL_VALUES[symbols[0]]
         }
     }
 }
