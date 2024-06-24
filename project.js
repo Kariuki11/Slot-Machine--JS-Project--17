@@ -139,6 +139,7 @@ const game = () => {
     let balance = deposit();
 
     while (true) {
+        print("You have a balance of $" + balance)
         const numberOfLines = getNumberOfLines();
         const bet = getBet(balance, numberOfLines);
         balance -= bet * numberOfLines
