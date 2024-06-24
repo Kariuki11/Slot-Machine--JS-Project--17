@@ -126,6 +126,10 @@ const getWinnings = (rows, bet, lines) => {
                     break;
             }
         }
+
+        if(allSame) {
+            
+        }
     }
 }
 
